@@ -64,5 +64,113 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-dovemails-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://dovemails.com/
+Dovemails is a hosted email platform offering a unified API for transactional email, newsletters, and marketing campaigns. It provides drop‑in endpoints compatible with Postmark, Mailgun, and Resend, supports SMTP on port 587, delivers messages via Dovemails' own mail servers with SPF, DKIM, DMARC, and MTA‑STS, and includes signed webhooks for event notifications. The service includes a dashboard for team‑managed mail, DNS setup guides, and SDKs for multiple languages, enabling developers to send mail programmatically while the provider handles infrastructure and deliverability.
+
+**Areas:** Company · Email · API · SaaS · Marketing
+
+## dovemails-com on APIs.io
+
+Everything profiled for dovemails-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dovemails-com/](https://apis.io/providers/dovemails-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [dovemails-com Send API](https://apis.io/apis/dovemails-com/dovemails-com-send-api/) — The Send API from dovemails-com — 2 operation(s) for send.
+- [dovemails-com Status API](https://apis.io/apis/dovemails-com/dovemails-com-status-api/) — The Status API from dovemails-com — 1 operation(s) for status.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Dovemails Com Agentic Access](https://apis.io/agentic-access/dovemails-com/dovemails-com-agentic-access/)
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [Health](https://apis.io/schemas/dovemails-com/dovemails-com-health/)
+- [SendRequest](https://apis.io/schemas/dovemails-com/dovemails-com-send-request/)
+- [SendResult](https://apis.io/schemas/dovemails-com/dovemails-com-send-result/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [dovemails-com API Rules](https://apis.io/rules/dovemails-com/dovemails-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dovemails Com Authentication](https://apis.io/security/dovemails-com/dovemails-com-authentication/)
+- [Dovemails Com Domain Security](https://apis.io/security/dovemails-com/dovemails-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://dovemails.com/)
+- [Documentation](https://dovemails.com/docs/)
+- [Getting started](https://dovemails.com/docs/quickstart.html)
+- [API reference](https://dovemails.com/docs/api/)
+- [Sign up](https://app.dovemails.com/register)
+- [Trust centre](https://dovemails.com/trust/)
+- [Privacy policy](https://dovemails.com/#privacy)
+
+## API Evangelist rating
+
+**Kin Score 45.7** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 44.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 54.0 |
+| Access clarity | 31.6 |
+
+**Agent readiness 55.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 25.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dovemails-com/](https://apis.io/providers/dovemails-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for dovemails-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dovemails-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
